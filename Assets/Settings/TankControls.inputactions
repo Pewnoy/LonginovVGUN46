@@ -1,15 +1,15 @@
 {
     "version": 1,
-    "name": "Tank Actions",
+    "name": "TankControls",
     "maps": [
         {
             "name": "Tank",
-            "id": "b66a6e60-502c-470b-b234-370b971c5597",
+            "id": "9c917150-10a9-4a8f-a51b-a2485854c82e",
             "actions": [
                 {
-                    "name": "Handbreak",
+                    "name": "HandBreak",
                     "type": "Button",
-                    "id": "f29de056-6df1-4507-944a-3b8e8b5e5ac5",
+                    "id": "91a97841-57b8-497a-ba97-0df78d0a21df",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -18,8 +18,8 @@
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "45faa177-02a8-4b58-b6f5-e92523955a22",
-                    "expectedControlType": "Vector2",
+                    "id": "bd5ae253-83ec-45b2-b620-8541d9a81dd0",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -28,18 +28,18 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "fb441ece-303e-4b44-aa0a-b3290ef2bc6d",
+                    "id": "4be2350a-ead3-44ad-b611-a93ea51cffe4",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Handbreak",
+                    "action": "HandBreak",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "WASD",
-                    "id": "bb7ebe81-ad6d-4603-8da6-8b4d8d499931",
+                    "id": "653a9721-43cc-40c4-8b69-d0101c63fd3e",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -50,7 +50,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "ebb6e0d5-7e64-4035-83aa-0c35d54182d7",
+                    "id": "e4cf9d5f-ac0d-4318-995c-9283315c5b78",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -61,7 +61,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "09a7fde6-8bc4-404a-aead-7c6553615348",
+                    "id": "af8874ec-614f-4912-bc44-78b314e69eaa",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -72,7 +72,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "12cfda1c-01e4-4536-991c-66757c472344",
+                    "id": "79ed0da7-745a-4313-b2b3-9fa29759eabb",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -83,7 +83,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "8e6094e7-aaff-4437-bce2-c3f9072c0591",
+                    "id": "5e2bce77-d64b-4d24-903f-44182d0f38e1",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -96,12 +96,12 @@
         },
         {
             "name": "Turret",
-            "id": "d91a2fb2-a0ad-4658-b880-4d5453331024",
+            "id": "9cd79c43-d347-4687-b164-2ffe08e921bc",
             "actions": [
                 {
                     "name": "Fire",
                     "type": "Button",
-                    "id": "b2d38fe1-e7cc-492e-9588-3dd03f9b5058",
+                    "id": "38e41d8d-f117-4a79-9a82-e1a9288c8a01",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -110,7 +110,7 @@
                 {
                     "name": "Focus",
                     "type": "Value",
-                    "id": "d006e51c-9087-4475-8d34-f5515deced42",
+                    "id": "35a106a8-c67d-4ee8-9305-52265081e58e",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -120,8 +120,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "fbc6824c-1a27-408d-a36c-437195652bde",
-                    "path": "<Keyboard>/e",
+                    "id": "f309888a-06a7-4160-b50e-22694a8f2055",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -131,7 +131,7 @@
                 },
                 {
                     "name": "",
-                    "id": "ad24da8c-d873-47ed-bac6-5ee841cddbf4",
+                    "id": "13b8e91d-de9e-4980-88a4-50ba0a493164",
                     "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
