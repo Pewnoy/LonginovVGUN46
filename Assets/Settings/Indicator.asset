@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f3d7a623ad477d857fb2e28b21a585, type: 3}
+  m_Name: Indicator
+  m_EditorClassIdentifier: 
+  <Settings>k__BackingField:
+  - Mult: 1
+    Text: Wow!
+    Clip: {fileID: 0}
+  - Mult: 2
+    Text: Again!
+    Clip: {fileID: 7400000, guid: 29d3436929f60bc42a82c6ab91b2d1e3, type: 2}
+  - Mult: 3
+    Text: Don't stop!
+    Clip: {fileID: 7400000, guid: 6525622831675f6408d22a8982ee8b87, type: 2}
+  - Mult: 4
+    Text: Almost there!
+    Clip: {fileID: 7400000, guid: 3d94c42134328e3429d12a72b2bc38ca, type: 2}
+  - Mult: 5
+    Text: NONONO!!!!!
+    Clip: {fileID: 7400000, guid: ed03c71aecfa7e744b4552c89ddbaaa4, type: 2}
+  - Mult: 6
+    Text: CARNAGE
+    Clip: {fileID: 7400000, guid: 80cf409e96451034fbdaa8f23e12cd31, type: 2}
