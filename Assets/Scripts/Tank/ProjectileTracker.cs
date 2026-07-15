@@ -54,6 +54,7 @@ namespace Tanks.Tank
 
 		private void Awake()
 		{
+		_liner=GetComponent <LineRenderer>();
 			_points = new NativeArray<Vector3>(_count, Allocator.Persistent, NativeArrayOptions.UninitializedMemory);
 			_controller = FindObjectOfType<TurretController>();
 			if (_controller == null || _liner == null)
